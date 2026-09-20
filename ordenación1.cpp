@@ -23,17 +23,16 @@ int main()
     cout << "Ingrese el tamaño del arreglo: ";
     cin >> n;
     int v[n];
-    cout << "Ingrese los elementos del arreglo: ";
+    cout << "Ingrese los elementos del arreglo: " << endl;
     for (int i = 0; i < n; i++)
     {
         cin >> v[i];
     }
     IDD(v, n);
-    cout << "Arreglo ordenado: ";
+    cout << "Arreglo ordenado: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << v[i] << " ";
     }
-    cout << endl;
     return 0;
 }
